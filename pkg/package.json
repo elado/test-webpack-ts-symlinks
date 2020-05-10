@@ -1,0 +1,10 @@
+{
+  "name": "@elado/pkg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Elad Ossadon <elad@ossadon.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}

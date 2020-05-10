@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      // need both package and package/* mapping
+      "@elado/pkg": ["../pkg/src"],
+      "@elado/pkg/*": ["../pkg/src/*"]
+    }
+  }
+}
